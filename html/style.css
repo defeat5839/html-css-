@@ -1,0 +1,85 @@
+@import"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "montserrat",sans-serif;
+    min-height: 100vh;
+    background-image: linear-gradient(125deg,#30bc1e,#46e9cb,#35d6ef,#1fb2b7,#2384af,#135789,#dd68ad);
+}
+.login-box{
+    width:320px;
+    position:absolute;
+    top:28%;
+    left:40%;
+    
+}
+.login-box h1{
+    float:left;
+    font-size:40px;
+    border-bottom:6px solid #00ffff;
+    margin-bottom:50px;
+    padding:13px 0;
+    color:#00ffff;
+}
+.textbox {
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 1px solid #00ffff;
+}
+.textbox i{
+    width: 26px;
+    float:left;
+    text-align:center;
+}
+.textbox input{
+    border:none;
+    outline:none;
+    background:none;
+    color:white;
+    font-size:18px;
+    width:80%;
+    float:left;
+    margin:0 10px;
+}
+.btn {
+    border: 2px solid #00ffff;
+    background: none;
+    color: white;
+    font-size: 18px;
+    width: 100%;
+    padding:5px;
+    cursor:pointer;
+    margin:12px 0;
+}
+.button {
+    width: 80px;
+    position: absolute;
+    top: 25%;
+    left: 75%;
+    background-color: none;
+    font-size: 20px;
+    border: 2px solid #00ffff;
+
+}
+a{
+    color:aqua;
+}
+
+.back a {
+    text-decoration: none;
+    background: #00ffff;
+    color: black;
+    display: inline-block;
+    border-radius: 25px;
+    padding: 12px 24px;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.4s;
+    position: absolute;
+    top: 65%;
+    left: 44%;
+}
